@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(34, 32, 31);
+}
+* {
+  font-family: "Phudu", cursive;
+  font-family: "Rowdies", cursive;
+}
+.page_head {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.page_head span i {
+  margin-left: 5px;
+  font-weight: 1000;
+  font-size: 2rem;
+}
+
+.add_but {
+  color: rgb(224, 231, 238);
+  border-radius: 20%;
+  font-size: 2.5rem;
+}
+.film_form {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  top: 30%;
+  left: 20%;
+  border: 2rem;
+  border-color: brown;
+  border-radius: 2rem;
+  visibility:hidden;
+}
+.series_form {
+  position: absolute;
+  width: 750px;
+  height: 50vh;
+  background-color: white;
+  top: 30%;
+  right: 10%;
+  border: 2rem;
+  border-color: brown;
+  border-radius: 2rem;
+  visibility:hidden;
+}
+.image_div_film , .image_div_series {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.head_div_film,
+.disc_div_film,
+.head_div_series,
+.disc_div_series {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.submit_film ,.submit_series {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+}
